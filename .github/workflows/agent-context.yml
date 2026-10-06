@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: threadctx-dev/action@847c4b1b0998cc5a6c9917dded08a8ae770fce16 # v1.0.1
+      - uses: threadctx-dev/action@380c9b3cf45a7fd3dd086cdd13dd3c8c075ff811 # v1.3.0
