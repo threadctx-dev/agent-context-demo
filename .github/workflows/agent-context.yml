@@ -1,0 +1,12 @@
+name: Agent context
+on: pull_request
+permissions:
+  contents: read
+  pull-requests: write
+  security-events: write
+jobs:
+  agent-context:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: threadctx-dev/action@f1ee9b29a2b5ced666a9ee0d46fdfc18efcc5335 # v1.0.0

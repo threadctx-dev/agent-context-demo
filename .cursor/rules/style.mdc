@@ -1,0 +1,5 @@
+---
+description: Code style
+globs: src/**/*.ts
+---
+- Prefer pure functions and explicit return types.
